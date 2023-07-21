@@ -36,7 +36,7 @@ jobs:
       - name: Fix Configuration
         run: |
           mv config/config.example.env config/config.env
-          envsubst < config/config.example.yml > config/config.yml
+        #   envsubst < config/config.example.yml > config/config.yml
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TELEGRAM_API_KEY: ${{ secrets.TELEGRAM_API_KEY }}

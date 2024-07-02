@@ -111,5 +111,3 @@ You can be in this list:
 
 ## References
 1. [*Build ChatGPT from GPT-3*](https://learnprompting.org/docs/applied_prompting/build_chatgpt)
-
-cool
